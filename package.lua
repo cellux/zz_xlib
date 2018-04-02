@@ -1,9 +1,4 @@
-local P = {}
-
-P.package = "github.com/cellux/zz_xlib"
-
-P.exports = {
-   "xlib"
+return {
+   package = "github.com/cellux/zz_xlib",
+   exports = { "xlib" }
 }
-
-return P
